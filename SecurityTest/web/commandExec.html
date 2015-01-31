@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Damn Vulnerable Web App (DVWA) v1.0.7 :: Vulnerability: Brute Force</title>
+
+		<link rel="stylesheet" type="text/css" href="main.css" />
+
+
+		<script type="text/javascript" src="dvwaPage.js"></script>
+
+
+</head>
+<body>
+
+	<body class="home">
+		<div id="container">
+
+			
+<div class="body_padded">
+	<h1>Vulnerability: Command Execution</h1>
+
+	<div class="vulnerable_code_area">
+
+		<h2>Ping for FREE</h2>
+
+		<p>Enter an IP address below:</p>
+		<form name="ping" action="command.php" method="post">
+			<input type="text" name="ip" size="30">
+			<input type="submit" value="submit" name="submit">
+		</form>
+
+		
+
+	</div>
+
+	</div>
+
+</div>
+</body>
+</html>
